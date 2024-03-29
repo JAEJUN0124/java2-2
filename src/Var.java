@@ -1,3 +1,4 @@
+package ch02;
 public class Var {
     public static void main(String[] args) {
         var price = 200; // price는 int 타입으로 결정

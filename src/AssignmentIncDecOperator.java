@@ -1,4 +1,5 @@
-public class AssignmentIncDecOperator {
+package ch02;
+ class AssignmentIncDecOperator {
     public static void main(String[] args) {
         int a = 3, b = 3, c = 3;
         // 대입 연산자 사례

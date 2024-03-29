@@ -1,3 +1,4 @@
+package ch02;
 import java.util.Scanner;
 public class NestedIf {
     public static void main(String[] args) {

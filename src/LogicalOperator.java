@@ -1,3 +1,4 @@
+package ch02;
 public class LogicalOperator {
     public static void main(String[] args) {
         System.out.println('a' > 'b');

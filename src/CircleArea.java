@@ -1,3 +1,4 @@
+package ch02;
 public class CircleArea {
     public static void main(String[] args) {
         final double PI = 3.14; // 원주율을 상수로 선언

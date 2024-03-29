@@ -1,3 +1,4 @@
+package ch02;
 public class BitShiftOperator {
     public static void main(String[] args) {
         short a = (short)0x55ff;
