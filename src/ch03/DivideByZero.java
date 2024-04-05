@@ -10,6 +10,13 @@ public class DivideByZero {
         dividend = scanner.nextInt(); // 나뉨수 입력
         System.out.print("나눗수를 입력하세요:");
         divisor = scanner.nextInt(); // 나눗수 입력
-        System.out.println(dividend+"를 " + divisor + "로 나누면 몫은 " + dividend/divisor + "입니다.");
+        try {
+            System.out.println(dividend+"를 " + divisor + "로 나누면 몫은 " + dividend/divisor + "입니다.");
+        } catch (Exception e) { // ArithmeticException 에외 처리 코드
+            System.out.println("0으로 나눌 수 없습니다!");
+        }
+        finally {
+            scanner.close(); // 정상적이든 예외가 발생하든 최종적으로 scanner를 닫는다
+        }
     }
 }
