@@ -1,5 +1,60 @@
 # 황재준 학번 202330233
 
+## 6월 14일
+
+### 자바의 입출력 스트림
+* #### 입출력 장치와 자바 응용프로그램 연결
+
+### 자바의 입출력 스트림 종류
+* #### 문자 스트림
+* #### 바이트 스트림
+
+### 스트림 연결
+* #### 여러 개의 스트림을 연결하여 사용할 수 있음
+
+### 문자 스트림으로 텍스트 파일 읽기
+* #### 텍스트 파일을 읽기 위해 문자 스트림 FileReader 클래스 이용
+
+### 파일 입출력과 예외 처리
+* #### 파일 입출력 동안 예외 발생 가능
+* #### try-catch 블록 반드시 필요
+
+### FileReader의 생성자와 주요 메소드
+* #### FileReader(File file0) / file에 지정된 파일로부터 읽는 FileReader 생성
+* #### 등등
+
+### 문자 스트림으로 텍스트 파일 쓰기
+* #### 텍스트 파일에 쓰기 위해 문자 스트림 FileWriter 클래스 이용
+
+### FileWriter의 생성자와 주요 메소드
+* #### FileWriter(File file) / file에 데이터를 저장할 FileWriter 생성
+* #### 등등
+
+### 바이트 스트림으로 바이너리 파일 쓰기
+* #### 바이러니 값을 파일에 저장하기
+
+### FileOutputStream의 생성자와 주요 메소드
+* #### FileOutputStream(File file) / file이 지정하는 파일에 출력하는 FileOutputStream 생성
+* #### 등등
+
+### 바이트 스트림으로 바이너리 파일 읽기
+* #### 바이너리 파일에서 읽기 위해 FileInputStream 클래스 이용
+
+### FileInputStream의 생성자와 주요 메소드
+* #### FileInputStream(File file) / file이 지정하는 파일로부터 FileInputStream 생성
+* #### 등등
+
+### File 클래스
+* #### 파일의 경로명 및 속성을 다루는 클래스
+
+### File 클래스 생성자와 주요 메소드
+* #### File(File parent, String child) / parent 디렉토리에 child 이름의 티렉토리나 파일을 나타내는 File 객체 생성
+* #### 등등
+
+### File 클래스 활용
+* #### 파일크기 -> 경로명 -> 타입 -> 디렉토리 파일 리스트 얻기
+
+
 ## 6월 7일
 
 ### 스윙 컴포넌트 그리기, paintComponent()
